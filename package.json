@@ -1,11 +1,26 @@
 {
   "name": "tree-ide",
   "version": "1.0.0",
+  "description": "TreeIDE, a lightweight, open-source project structure editor",
+  "author": "Carlos (git-mare)",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
   },
   "devDependencies": {
-    "electron": "^26.6.10"
+    "electron": "^26.6.10",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.gitmare.treeide",
+    "productName": "TreeIDE",
+    "win": {
+      "target": [
+        "msi"
+      ],
+      "icon": "assets/icon-no-bg.ico",
+      "signAndEditExecutable": false
+    }
   }
 }

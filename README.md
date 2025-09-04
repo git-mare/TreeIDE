@@ -2,8 +2,8 @@
 
 **Tree IDE** is a lightweight, open-source project structure editor designed for developers who want to quickly design, visualize, and build directory trees from a simple text-based editor.  
 It combines a plain-text editor with a real-time tree view and one-click project generation.
-(Temporary) Website: [https://tree.immare.xyz/](https://tree.immare.xyz/)
----
+
+- Website: [https://tree.immare.xyz/](https://tree.immare.xyz/)
 
 ## Features
 

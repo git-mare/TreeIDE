@@ -1,0 +1,36 @@
+icons/
+	folder-icons/
+		tests/
+			example
+		controller-utils-tools/
+			example
+		models/
+			example
+		data/
+			example
+		assets-images/
+			example
+		audio/
+			example
+		scripts/
+			example
+		translation-i18n/
+			example
+
+	file-icons/
+		python.py
+		ruby.rb
+		javascript.js
+		typescript.ts
+		index.java
+		index.c
+		index.cpp
+		csharp.cs
+		index.html
+		styles.css
+		packages.json
+		markdown.md
+		shell.sh
+		packages.yml
+		sqlite.sql
+		file.tree

@@ -1,0 +1,11 @@
+dots/
+...controller/
+...models/
+......User.py
+...docker/
+......transactions-api.v2/
+...docs/
+......ARCHITECTURE.md
+...scripts/
+......deploy.sh
+...tests/

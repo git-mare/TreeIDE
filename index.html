@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tree IDE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="toolbar">
+        <button id="themeBtn">Change Theme</button>
+        <button id="loadBtn">Load .tree file</button>
+        <button id="saveBtn">Save File</button>
+        <button id="createBtn">Build</button>
+        <button id="creditsBtn">Credits</button>
+    </div>
+    <div id="titleBar" class="title-bar">
+        <span id="fileName">Untitled</span>
+    </div>
+    <div class="container">
+        <div id="toast" style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: none;
+        opacity: 0.9;
+        font-family: sans-serif;
+        z-index: 1000;">Saved!</div>
+
+        <textarea id="editor"></textarea>
+        <pre id="treeView"></pre>
+    </div>
+    <div id="creditsModal">
+        <div id="creditsContent">
+            <h2>Credits</h2>
+            <p>Project developed by git-mare (on github)</p>
+            <p>This project is licensed under the MIT License. Check the LICENSE file in the root project.</p>
+            <button id="closeCredits">Close</button>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>

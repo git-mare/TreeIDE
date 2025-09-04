@@ -26,7 +26,7 @@ It combines a plain-text editor with a real-time tree view and one-click project
 1. Clone the repository:
    ```bash
    git clone https://github.com/git-mare/TreeIDE.git
-   cd tree-ide
+   cd TreeIDE
    ```
 
 2. Install dependencies:

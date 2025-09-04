@@ -2,7 +2,7 @@
 
 **Tree IDE** is a lightweight, open-source project structure editor designed for developers who want to quickly design, visualize, and build directory trees from a simple text-based editor.  
 It combines a plain-text editor with a real-time tree view and one-click project generation.
-
+(Temporary) Website: [https://tree.immare.xyz/](https://tree.immare.xyz/)
 ---
 
 ## Features
@@ -25,8 +25,8 @@ It combines a plain-text editor with a real-time tree view and one-click project
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/git-mare/tree-ide.git
-   cd tree-ide
+   git clone https://github.com/git-mare/TreeIDE.git
+   cd TreeIDE
    ```
 
 2. Install dependencies:
@@ -37,11 +37,6 @@ It combines a plain-text editor with a real-time tree view and one-click project
 3. Run in development mode:
     ```
     npm start
-    ```
-
-4. Build the application (optional):
-    ```
-    npm run build
     ```
 
 ## Usage
@@ -63,18 +58,19 @@ It combines a plain-text editor with a real-time tree view and one-click project
 
 5. Save and load .tree project files with the toolbar.
 
-- Note: You can check `/examples` folder and load the tree files on the IDE. 
+- Note: You can check [`/examples`](/examples) folder and load the tree files on the IDE. 
 
 ## Keyboard Shortcuts
-- Tab → Indent line / Increase nesting level.
+- <kbd>Tab</kbd> → Indent line / Increase nesting level.
 
-- Shift + Tab → Unindent line / Decrease nesting level.
+- <kbd>Shift</kbd> + <kbd>Tab</kbd> → Unindent line / Decrease nesting level.
 
-- Ctrl + S → Save current file.
+- <kbd>Ctrl</kbd> + <kbd>S</kbd> → Save current file.
 
-- Ctrl + Shift + S → Save As.
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> → Save As.
 
 ## Project Structure
+```
 tree-ide/
 │── assets/           # App icon
 │── examples/         # .tree Example Files 
@@ -86,6 +82,7 @@ tree-ide/
 │── package.json      # Project metadata & scripts
 │── README.md         # Documentation
 └── LICENSE           # MIT License
+```
 
 ## Credits
 - Project Creator: git-mare (me)
@@ -93,3 +90,6 @@ tree-ide/
 ## License
 - This project is licensed under the MIT License.
 - You are free to use, modify, and distribute this software, provided that proper credit is given to the original author.
+
+## Screenshot
+![Screenshot](assets/screenshot.png)

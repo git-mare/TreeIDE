@@ -39,11 +39,6 @@ It combines a plain-text editor with a real-time tree view and one-click project
     npm start
     ```
 
-4. Build the application (optional):
-    ```
-    npm run build
-    ```
-
 ## Usage
 1. Launch Tree IDE.
 2. Use the text editor on the left to write your structure.

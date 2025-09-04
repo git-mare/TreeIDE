@@ -25,7 +25,7 @@ It combines a plain-text editor with a real-time tree view and one-click project
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/git-mare/tree-ide.git
+   git clone https://github.com/git-mare/TreeIDE.git
    cd tree-ide
    ```
 
@@ -63,18 +63,19 @@ It combines a plain-text editor with a real-time tree view and one-click project
 
 5. Save and load .tree project files with the toolbar.
 
-- Note: You can check `/examples` folder and load the tree files on the IDE. 
+- Note: You can check [`/examples`](/examples) folder and load the tree files on the IDE. 
 
 ## Keyboard Shortcuts
-- Tab → Indent line / Increase nesting level.
+- <kbd>Tab</kbd> → Indent line / Increase nesting level.
 
-- Shift + Tab → Unindent line / Decrease nesting level.
+- <kbd>Shift</kbd> + <kbd>Tab</kbd> → Unindent line / Decrease nesting level.
 
-- Ctrl + S → Save current file.
+- <kbd>Ctrl</kbd> + <kbd>S</kbd> → Save current file.
 
-- Ctrl + Shift + S → Save As.
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> → Save As.
 
 ## Project Structure
+```
 tree-ide/
 │── assets/           # App icon
 │── examples/         # .tree Example Files 
@@ -86,6 +87,7 @@ tree-ide/
 │── package.json      # Project metadata & scripts
 │── README.md         # Documentation
 └── LICENSE           # MIT License
+```
 
 ## Credits
 - Project Creator: git-mare (me)
